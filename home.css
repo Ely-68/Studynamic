@@ -10,7 +10,7 @@ header, body, html{
 }
 
 header{
-    background: url(../Blog/IMAGES/banner.png);
+    background: url(banner.png);
     background-position: center;
     background-size: cover;
 }
