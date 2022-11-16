@@ -1,0 +1,119 @@
+.onglets, h2{
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 23px;
+}
+
+.onglets{
+    font-size: 20px;
+    margin-top: 34px;
+}
+
+nav, .onglets, a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+b{
+    text-decoration: underline;
+}
+
+header{
+    background: url(../Blog/IMAGES/Image_noire.jpg);
+    background-position: center;
+}
+
+html, body, header, h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+header, body, html{
+    width: 100%;
+}
+
+.articles{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.articles, .article{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.articles{
+    flex-wrap: wrap;
+}
+
+.article, .articles, .left, img{
+    height: 300px;
+    width: 500px;
+}
+
+.article, .articles, .right{
+    width: 100%;
+}
+
+p.Description, p.Description1, p.Auteur, p.date{
+    margin-left: 50px;
+}
+.left{
+    filter: brightness(50%);
+}
+
+p.Description, button, p.Auteur, p.date, p.Description1{
+    flex-wrap: wrap;
+    font-family: 'Merriweather', serif;
+}
+
+p.Description{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+button{
+    margin-left: 45px;
+}
+
+p.date{
+    color: rgb(112, 112, 112);
+}
+
+p.Description1{
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+button{
+    font-size: 35px;
+}
+
+:hover{
+    filter: brightness(100%);
+    transition: filter .3s ease;
+}
+
+button:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+button{
+    font-weight: bold;
+}
+
+p.Auteur, p.date{
+    font-size: 17px;
+}

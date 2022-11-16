@@ -1,0 +1,57 @@
+.onglets, h2{
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 23px;
+}
+
+.onglets{
+    font-size: 20px;
+    margin-top: 34px;
+}
+
+nav, .onglets, a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+b{
+    text-decoration: underline;
+}
+
+header{
+    background: url(../Blog/IMAGES/Image_noire.jpg);
+    background-position: center;
+}
+
+html, body, header, h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+header, body, html{
+    width: 100%;
+}
+
+main{
+    margin-top: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+    margin-top: 100px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}

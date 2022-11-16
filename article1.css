@@ -1,0 +1,91 @@
+.onglets, h2{
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 23px;
+}
+
+.onglets{
+    font-size: 20px;
+    margin-top: 34px;
+}
+
+nav, .onglets, a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+b{
+    text-decoration: underline;
+}
+
+header{
+    background: url(../Blog/IMAGES/Image_noire.jpg);
+    background-position: center;
+}
+
+html, body, header{
+    margin: 0px;
+    padding: 0px;
+}
+
+header, body, html{
+    width: 100%;
+}
+
+h1{
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+p{
+    color: gray;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+img{
+    height: 300px;
+    width: 600px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+h4{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+button{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+button:hover{
+    color: blue;
+}
